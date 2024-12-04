@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.invitation-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+header h1 {
+    font-size: 2.5rem;
+    color: #ff6347;
+    margin-bottom: 20px;
+}
+
+
+.party-name {
+    font-size: 2rem;
+    color: #ff6347;
+    margin-bottom: 10px;
+}
+
+.birthday-name {
+    color: #8a2be2;
+    font-weight: bold;
+}
+
+
+.date-time {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+
+.location {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+
+.message p {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 20px 0;
+}
+
+
+footer p {
+    font-size: 1rem;
+    color: #808080;
+    margin-top: 30px;
+    font-style: italic;
+}

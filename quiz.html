@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Website</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <header>
+            <h1>General Knowledge Quiz</h1>
+            <p id="timer">Time Left: <span id="time">30</span> seconds</p>
+        </header>
+
+        <div id="quiz" class="quiz">
+            <div id="question-container" class="question-container">
+                <p id="question">Question will appear here.</p>
+                <div id="options" class="options">
+                
+                </div>
+            </div>
+            <div id="quiz-footer" class="quiz-footer">
+                <button id="next-button" onclick="nextQuestion()">Next Question</button>
+            </div>
+        </div>
+
+        <div id="result" class="result">
+            <h2>Your Score: <span id="score">0</span>/5</h2>
+            <button onclick="restartQuiz()">Restart Quiz</button>
+        </div>
+    </div>
+
+    <script src="java.js"></script>
+</body>
+</html>
