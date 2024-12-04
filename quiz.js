@@ -1,28 +1,28 @@
 const questions = [
     {
-        question: "What is the capital of France?",
-        options: ["Berlin", "Madrid", "Paris", "Rome"],
-        correctAnswer: "Paris"
+        question: "Who is called as Mr.IPL?",
+        options: ["Jos Butler", "Ajinkya Rahane", "Andre Russel", "Suresh Raina"],
+        correctAnswer: "Suresh Raina"
     },
     {
-        question: "Which planet is known as the Red Planet?",
-        options: ["Earth", "Mars", "Jupiter", "Saturn"],
-        correctAnswer: "Mars"
+        question: "Who won the 2019 ODI WorldCup?",
+        options: ["India", "England", "Australia", "New Zealand"],
+        correctAnswer: "England"
     },
     {
-        question: "Who wrote 'Hamlet'?",
-        options: ["Shakespeare", "Dickens", "Austen", "Hemingway"],
-        correctAnswer: "Shakespeare"
+        question: "Who holds the record for the highest individual score in ODI cricket?",
+        options: ["Virat Kohli", "AB Devilliars", "Rohit Sharma", "Chris Gayle"],
+        correctAnswer: "Rohit Sharma"
     },
     {
-        question: "What is the largest ocean on Earth?",
-        options: ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
-        correctAnswer: "Pacific Ocean"
+        question: "Which bowler(spin) has taken the most wickets in Test cricket history?",
+        options: ["Shane Warne", "Ravichandran Ashwin", "Imran Tahir", "Muttaiah Muralitharan"],
+        correctAnswer: "Muttaiah Muralitharan"
     },
     {
-        question: "What is the smallest country in the world?",
-        options: ["Monaco", "Vatican City", "San Marino", "Liechtenstein"],
-        correctAnswer: "Vatican City"
+        question: "Who was the first cricketer to score a double century in ODI cricket?",
+        options: ["Alaister Cook", "Sachin Ramesh Tendulkar", "Virat Kohli", "AB Devilliers"],
+        correctAnswer: "Sachin Ramesh Tendulkar"
     }
 ];
 
